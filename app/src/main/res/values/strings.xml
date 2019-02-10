@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Heroku</string>
+    <string name="main_title">HerokuAndroidMVC</string>
+    <string name="name">Muhammad waris</string>
+    <string name="intro">I am an Andoid Developer having two years of Experience in the Industry. Currently working in Vizteck Solutions(Bahria Town, Rawalpindi). Graduated from UET Taxila</string>
+    <string name="phone_number">Phone Number: +923346967872</string>
+    <string name="email">Email: warisdgk@gmail.com</string>
+    <string name="title_placeholder">Title Placeholder</string>
+</resources>

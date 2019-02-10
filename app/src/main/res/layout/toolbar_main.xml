@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/toolbar_gradient"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingTop="@dimen/dim_20">
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/dim_15"
+            android:layout_marginStart="@dimen/dim_15">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="RECIPES"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_xlarge"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="@dimen/dim_25"
+                android:layout_height="@dimen/dim_25"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/dim_2"
+                android:src="@drawable/icon_menu"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_title_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:text="Category"
+                android:textAllCaps="true"
+                android:textColor="@color/text_primary_hint"
+                android:textSize="@dimen/text_small"
+                android:layout_marginTop="@dimen/dim_10"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/dim_15"
+                android:layout_height="@dimen/dim_15"
+                android:layout_below="@+id/tv_title"
+                android:layout_marginStart="@dimen/dim_10"
+                android:layout_alignTop="@+id/tv_title_category"
+                android:layout_toEndOf="@+id/tv_title_category"
+                android:src="@drawable/ic_dropdown"
+                android:tint="@color/text_primary_hint" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>

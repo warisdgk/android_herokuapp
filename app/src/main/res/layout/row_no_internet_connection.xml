@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_no_result"
+        android:layout_width="@dimen/dim_80"
+        android:layout_height="@dimen/dim_80"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dim_50"
+        android:src="@drawable/cloud" />
+
+    <TextView
+        android:id="@+id/tv_whoops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_no_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dim_2"
+        android:text="No Internet"
+        android:textColor="@color/colorLightBlack"
+        android:textSize="@dimen/text_xlarge" />
+
+    <TextView
+        android:id="@+id/tv_no_connection_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_whoops"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dim_10"
+        android:gravity="center_horizontal"
+        android:text="Internet connection failed,try again"
+        android:textSize="@dimen/text_medium" />
+
+    <ImageView
+        android:id="@+id/iv_reload"
+        android:layout_width="@dimen/dim_40"
+        android:layout_height="@dimen/dim_40"
+        android:layout_below="@+id/tv_no_connection_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dim_20"
+        android:src="@drawable/loading" />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="@dimen/dim_40"
+        android:layout_height="@dimen/dim_40"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dim_20"
+        android:layout_below="@+id/tv_no_connection_desc"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

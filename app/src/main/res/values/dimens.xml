@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_100">100dp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_xlarge">18sp</dimen>
+    <dimen name="text_xxlarge">20sp</dimen>
+    <dimen name="text_xxxlarge">22sp</dimen>
+    <dimen name="actionbar_height">56dp</dimen>
+    <dimen name="dim_50">50dp</dimen>
+    <dimen name="dim_5">5dp</dimen>
+    <dimen name="dim_20">20dp</dimen>
+    <dimen name="dim_1">1dp</dimen>
+    <dimen name="dim_80">80dp</dimen>
+    <dimen name="dim_30">30dp</dimen>
+    <dimen name="dim_25">25dp</dimen>
+    <dimen name="dim_4">4dp</dimen>
+    <dimen name="dim_15">15dp</dimen>
+    <dimen name="dim_70">70dp</dimen>
+    <dimen name="dim_2">2dp</dimen>
+    <dimen name="dim_40">40dp</dimen>
+    <dimen name="dim_13">13dp</dimen>
+    <dimen name="dim_200">200dp</dimen>
+    <dimen name="dim_150">150dp</dimen>
+    <dimen name="dim_8">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
