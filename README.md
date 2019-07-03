@@ -10,9 +10,9 @@ The purpose of using an architecture like MVP is that we can achieve separation 
 # What's in this app?
 
 I have used the MVP pattern besides the Retrofit client libaray for Network Calling.
-This app utlilizes the herokuapp Open API given here: https://ghibliapi.herokuapp.com/films and the documentation here:https://ghibliapi.herokuapp.com/#section/Studio-Ghibli-API
+This app utlilizes the jsonplaceholder Open API given here: http://jsonplaceholder.typicode.com/posts
 
-App fetches the data from the given API above and shows the listing of Movies in a simple Single Screen having recyclerView.
+App fetches the data from the given API above and shows the listing of Posts in a simple Single Screen having recyclerView.
 
 
 # Dependencies Required
@@ -20,3 +20,6 @@ App fetches the data from the given API above and shows the listing of Movies in
 - Retrofit
 - Retrofit Logging Intercepter
 - Gson
+
+
+- - -
